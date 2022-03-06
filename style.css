@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.highlight{
+    color: rgb(211, 174, 105);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+p{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif !important;
+}
+.half-width-img{
+    width: 100%;
+    padding: 20px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png.jpg);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(0, 255, 234);
+}
+.dream{
+    background-image: url(images/bg.png.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 40%;
+    background-color: white;
+}
+.experience{
+    background-image: url(images/background.png.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, black,gray);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
